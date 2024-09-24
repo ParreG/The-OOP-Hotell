@@ -3,8 +3,6 @@ using System.Reflection;
 
 namespace The_OOP_Hotell
 {
-
-
     class Person
     {
         public string[] GuesstName { get; set; }
@@ -17,8 +15,6 @@ namespace The_OOP_Hotell
             Email = email;
             Tel = tel;
         }
-
-        
     }
     class HotelBooking
     {
@@ -76,9 +72,6 @@ namespace The_OOP_Hotell
             Console.WriteLine("Ditt totala pris är " + Price(lengthOfStayInNights) + "kr");
             Console.WriteLine();
         }
-
-        
-
     }
 
 
